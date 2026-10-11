@@ -6,7 +6,8 @@ import path from "path";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/My-Portfolio/", // Added trailing slash
+  // Netlify serves the site from the domain root; GitHub Pages serves it from /My-Portfolio/
+  base: process.env.NETLIFY ? "/" : "/My-Portfolio/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
