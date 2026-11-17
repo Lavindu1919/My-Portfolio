@@ -10,6 +10,42 @@ const certificates = [
     credentialUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", // optional
   },
+   {
+    title: "Web Design for Beginners",
+    issuer: "University of Moratuwa",
+    date: "2026",
+    description:
+      "Successfully completed the Web Design for Beginners certificate course offered by the University of Moratuwa.Gained foundational knowledge of HTML, CSS, and the fundamentals of web design and website development.Looking forward to applying these skills and continuing my journey in web development! 🚀",
+    skills: ["JavaScript,HTML,CSS"],
+    image: `${import.meta.env.BASE_URL}certificates/WebDesignForBeginners.jpg`,
+    credentialUrl:
+      "https://open.uom.lk/lms/mod/customcert/verify_certificate.php", // optional
+  },
+  {
+  title: "Front-End Web Development",
+  issuer: "University of Moratuwa",
+  date: "2026",
+  description:"Successfully completed the Front-End Web Development certificate course offered by the University of Moratuwa. Gained knowledge and practical experience in building responsive and interactive user interfaces using HTML, CSS, and JavaScript. 🚀",
+  skills: ["HTML", "CSS", "JavaScript", "Responsive Web Design"],
+  image: `${import.meta.env.BASE_URL}certificates/FrontEndWebDevelopment.jpg`,
+  credentialUrl:"https://open.uom.lk/lms/mod/customcert/verify_certificate.php", // optional
+},
+{
+  title: "AI/ML Engineer – Stage 1",
+  issuer: "SLIIT",
+  date: "2026",
+  description:
+    "Successfully completed the AI/ML Engineer – Stage 1 programme at the Sri Lanka Institute of Information Technology (SLIIT). Developed foundational knowledge of Artificial Intelligence and Machine Learning concepts, including data preprocessing, model development, and fundamental machine learning techniques. 🚀",
+  skills: [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Python",
+    "Data Preprocessing",
+    "Machine Learning Fundamentals"
+  ],
+  image: `${import.meta.env.BASE_URL}certificates/AICertificateStage1.jpg`,
+  credentialUrl: "https://code.sliit.org/certificates/kfbkvqoige", // optional
+}
 ];
 
 export const Certificates = () => {
