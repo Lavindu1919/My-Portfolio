@@ -45,6 +45,23 @@ const certificates = [
   ],
   image: `${import.meta.env.BASE_URL}certificates/AICertificateStage1.jpg`,
   credentialUrl: "https://code.sliit.org/certificates/kfbkvqoige", // optional
+},
+{
+  title: "NASA Space Apps Challenge 2026",
+  issuer: "NASA Space Apps Challenge",
+  date: "2026",
+  description:
+    "Successfully participated in the NASA Space Apps Challenge 2026, the world's largest annual global hackathon. Collaborated with a team to develop an innovative technology solution addressing a real-world space exploration challenge. Gained practical experience in problem-solving, teamwork, innovation, and software development. 🚀",
+  skills: [
+    "Problem Solving",
+    "Teamwork",
+    "Software Development",
+    "Innovation",
+    "Project Development",
+    "Collaboration"
+  ],
+  image: `${import.meta.env.BASE_URL}certificates/NASASpaceApps2026.jpeg`,
+  credentialUrl: "",
 }
 ];
 
